@@ -1,0 +1,20 @@
+Run a Local Server
+To serve your HTML file locally, you can use the Live Server extension in VS Code or the http-server npm package.
+
+Using Live Server in VS Code:
+
+Install the Live Server extension from the VS Code marketplace.
+Open your project folder in VS Code.
+Right-click on your index.html file and select Open with Live Server.
+Using http-server npm package:
+
+Install http-server globally:
+npm install -g http-server
+
+Navigate to your project directory:
+cd path/to/your/project
+
+Start the server:
+http-server
+
+Open the provided URL (usually http://localhost:8080) in your browser.
